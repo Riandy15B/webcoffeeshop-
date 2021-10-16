@@ -148,8 +148,7 @@ section {
   color: #eee;
   text-transform: none;
 }
-
-.home .boxcontent {
+.home .box-content {
   background-color: rgba(39, 36, 36, 0.7);
   border-radius: 20px;
 }
@@ -239,7 +238,7 @@ section {
 }
 
 .menu .box-container .box:hover {
-  background: #fff;
+  background: rgb(187, 187, 187);
 }
 
 .menu .box-container .box:hover > * {
@@ -247,8 +246,8 @@ section {
 }
 
 .menu .box-container .btn {
-  background-color: rgb(173, 46, 46);
-  border-radius: 5px;
+background-color: rgb(173, 46, 46);
+border-radius: 5px;
 }
 .menu .box-container .checked {
   color: orange;
@@ -258,7 +257,7 @@ section {
 
 .menu .box-container .charset {
   color: rgb(255, 255, 255);
-   padding-top: 5%;
+  padding-top: 5%;
 }
 
 .team .box-container {
@@ -266,9 +265,12 @@ section {
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  
 }
 
-
+.team .box-container .btn {
+  border-radius: 5px;
+}
 .team .box-container .box {
   width: 300px;
   height: 300px;
@@ -305,16 +307,12 @@ section {
   color: var(--black);
 }
 
-
 .contact .row {
   display: flex;
   background: var(--black);
   flex-wrap: wrap;
   gap: 1rem;
 }
-
-
-
 
 .contact .row .map {
   flex: 1 1 45rem;
@@ -414,7 +412,6 @@ section {
   .about .row .image img {
     box-shadow: none;
   }
-
 
   .header {
     padding: 1.5rem 2rem;
