@@ -356,6 +356,10 @@ border-radius: 5px;
   background: none;
 }
 
+.contact .row .btn {
+  border-radius: 5%;
+}
+
 .footer {
   background: var(--black);
   text-align: center;
